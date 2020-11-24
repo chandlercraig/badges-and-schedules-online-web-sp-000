@@ -17,3 +17,7 @@ def assign_rooms(attendees)
   attendees.each_with_index {|name, index|  new_arr << "Hello, #{name}! You'll be assigned to room #{index + 1}!"}
   return new_arr
 end
+
+def printer(attendees)
+  
+end
